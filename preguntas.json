@@ -1,0 +1,57 @@
+[
+    {
+        "pregunta": "¿Cuál de las siguientes es una forma correcta de declarar una variable en Python?",
+        "opciones": {
+            "a": "int numero = 5",
+            "b": "numero = 5",
+            "c": "var numero = 5",
+            "d": "let numero = 5",
+            "e": "numero := 5"
+        },
+        "respuesta": "b"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes define correctamente una función?",
+        "opciones": {
+            "a": "func miFuncion():",
+            "b": "def miFuncion():",
+            "c": "function miFuncion():",
+            "d": "miFuncion()",
+            "e": "lambda miFuncion:"
+        },
+        "respuesta": "b"
+    },
+    {
+        "pregunta": "¿Cuál de estas opciones imprime 'Hola mundo' en Python?",
+        "opciones": {
+            "a": "echo('Hola mundo')",
+            "b": "console.log('Hola mundo')",
+            "c": "print('Hola mundo')",
+            "d": "printf('Hola mundo')",
+            "e": "write('Hola mundo')"
+        },
+        "respuesta": "c"
+    },
+    {
+        "pregunta": "¿Qué tipo de dato es 3.14 en Python?",
+        "opciones": {
+            "a": "int",
+            "b": "float",
+            "c": "string",
+            "d": "bool",
+            "e": "char"
+        },
+        "respuesta": "b"
+    },
+    {
+        "pregunta": "¿Qué palabra reservada usamos para detener un ciclo en Python?",
+        "opciones": {
+            "a": "stop",
+            "b": "end",
+            "c": "break",
+            "d": "exit",
+            "e": "finish"
+        },
+        "respuesta": "c"
+    }
+]

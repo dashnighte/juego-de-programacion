@@ -1,0 +1,138 @@
+/* ----------------------------
+   BODY Y FONDO
+---------------------------- */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: black; /* Fondo negro para Matrix */
+    color: #0F0;
+    text-align: center;
+}
+
+/* ----------------------------
+   CANVAS MATRIX
+---------------------------- */
+#matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* ----------------------------
+   CONTENEDOR PRINCIPAL
+---------------------------- */
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,255,0,0.5);
+    color: #0F0;
+}
+
+
+/* ----------------------------
+   CANVAS MATRIX
+---------------------------- */
+#matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* atrás de todo */
+    pointer-events: none; /* no bloquea botones */
+}
+
+/* ----------------------------
+   CONTENEDOR PRINCIPAL
+---------------------------- */
+.container {
+     position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.6); /* Fondo semi-transparente para ver Matrix atrás */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,255,0,0.5);
+    color: #0F0;
+}
+
+/* ----------------------------
+   INPUTS
+---------------------------- */
+input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid #0F0;
+    background-color: rgba(0,0,0,0.6);
+    color: #0F0;
+    text-shadow: 0 0 5px #0F0, 0 0 10px #0F0;
+}
+
+/* ----------------------------
+   BOTONES
+---------------------------- */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0F0;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00FF00;
+    box-shadow: 0 0 10px #0F0, 0 0 20px #0F0, 0 0 30px #0F0;
+}
+
+/* Botones de opciones correctas e incorrectas */
+#opciones button.correct { 
+    background-color: #00FF00; 
+    color: black;
+    box-shadow: 0 0 10px #0F0, 0 0 20px #0F0;
+}
+#opciones button.wrong { 
+    background-color: #f44336; 
+    color: white;
+    box-shadow: 0 0 10px #f44336, 0 0 20px #f44336;
+}
+
+/* ----------------------------
+   QUIZ Y RANKING
+---------------------------- */
+#quiz-container, #ranking-container, #nivel-container {
+    transition: all 0.5s ease;
+}
+
+#feedback, #puntaje, #progreso, li {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #0F0;
+    text-shadow: 0 0 5px #0F0, 0 0 10px #0F0;
+}
+
+/* Opciones de quiz */
+#opciones button {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    cursor: pointer;
+}
